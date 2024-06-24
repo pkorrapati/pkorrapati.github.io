@@ -1,9 +1,382 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--<html class="no-js svg" lang="en" dir="ltr">-->
+<html class="js svg" lang="en" dir="ltr">
     <head>
-
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pranav Korrapati - Portfolio</title>
+        <link rel="stylesheet" href="css/foundation.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/webicons.css">
+        <link rel="stylesheet" href="css/foundation-icons.css">
+        <link rel="stylesheet" href="css/index.css">
     </head>
-    <body style="background: #111; color: chartreuse;">
-        <p>Follow the white rabbit....</p>
+    <body>
+        <!--
+<header class="sticky">
+<div class="grid-x grid-padding-x grid-padding-y">
+<div class="shrink cell">
+<h1>Pranav Korrapati</h1>
+</div>
+<div class="auto cell">
+<ul class="menu tabs navi align-right" data-tabs data-deep-link="true" data-update-history="true" id="example-tabs">
+<li class="menu-text tabs-title is-active"><a href="#panel1" aria-selected="true">About</a></li>
+<li class="menu-text tabs-title"><a href="#panel2">Work</a></li>
+<li class="menu-text tabs-title"><a href="#panel3">Achievements</a></li>
+<li class="menu-text tabs-title"><a href="#panel4">Projects</a></li>
+<li class="menu-text tabs-title"><a href="#panel5">Volunteering</a></li>
+</ul>
+
+<ul class="menu align-right">
+<li class="menu-text">
+<a class="webicon linkedin large" href="https://www.linkedin.com/in/pranavkorrapati">LinkedIn</a></li>
+</ul>
+
+</div>
+</div>            
+</header> 
+-->
+        <header data-sticky-container>
+            <div class="top-bar sticky stacked-for-medium" data-sticky data-margin-top="0">
+                <div class="top-bar-title">
+                    <span>Pranav Korrapati</span>
+                </div>    
+                <div class="top-bar-right">
+                    <ul class="menu navi" data-magellan data-offset="70" id="navigation">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#volunteering">Volunteering</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header> 
+
+        <!--        <div class="grid-container sections">            -->
+        <div class="sections">                        
+            <section id="about" data-magellan-target="about">
+                <div class="grid-y grid-margin-y">
+                    <div class="cell"><span>&nbsp;</span></div>
+                    <div class="cell">
+                        <div class="grid-container">
+                            <div class="text-center">                                                    
+                                <h3>I build machines that <span class="nobreak">co-work</span> with people</h3>
+                                <p class="lead">I am a driven by curiosity in exploring technologies and in creative application towards solutions that enrich lives of users.</p>                                     
+                            </div>
+                        </div>
+                    </div>                        
+                    <div class="cell blue-back">
+                        <div class="grid-container">
+                            <div class="grid-x">
+                                <div class="cell align-self-middle text-right large-5">
+                                    <h4 class="white-text">A Quantum Distancing Handshake...</h4>
+                                    <h5 class="gray-text ">Space. Time. State.</h5>
+                                </div>                                                                           
+                                <div class="cell large-7">
+                                    <div class="responsive-embed widescreen canvas-container" id="shakeContainer">
+                                        <canvas id="shake"></canvas>
+                                    </div>                                   
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="cell">
+                        <div class="grid-container">
+                            <div class="grid-y grid-margin-y"> 
+                                <div class="cell">
+                                    <h3>Education</h3>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x grid-margin-x grid-margin-y">
+                                        <div class="cell large-6">
+                                            <p class="lead"><span class="emph">Master of Science</span>, Mechanical Engineering<br />Stony Brook University, New York<br /><span class="duration">2015</span></p>       
+                                        </div>
+                                        <div class="cell large-6">
+                                            <p class="lead"><span class="emph">Bachelor of Technology</span>, Mechanical Engineering<br />Jawaharlal Nehru Technological University, India<br /><span class="duration">2011</span></p> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    <div class="cell"><span>&nbsp;</span></div>-->
+                    <div class="cell green-back"> 
+                        <div class="grid-container">
+                            <div class="grid-y grid-margin-y"> 
+                                <div class="cell">
+                                    <h3 class="white-text">Skills</h3>
+                                </div>
+                                <div class="cell">
+                                    <p class="white-text">An accomplished innovator</p>
+                                    <p class="white-text">Cradle-to-Gate New Product Development</p>
+                                    <p class="white-text">Computer-Aided Design (CAD) </p>
+                                    <p class="white-text">Finite Element Analysis (FEA)  </p>
+                                    <p class="white-text">Rapid Prototyping </p>     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>            
+            <section id="work" data-magellan-target="work">
+                <div class="grid-container">
+                    <div class="grid-y grid-margin-y">
+                        <div class="cell">
+                            <h3>Work</h3></div>
+                        <div class="cell">
+                            <div class="grid-y grid-margin-y">                            
+                                <div class="cell">                                                                                    
+                                    <p class="lead"><span class="emph">FARO Technologies, Inc</span>, Londonderry, New Hampshire<br />R&amp;D Opto-Mechanical Engineer<br/><span class="duration">Feb, 2017 - Feb, 2020</span></p>
+                                    <p class="description text-justify">Led Research and New Product Development of Laser Projectors, Scanners and LiDAR, from Concept to Production, with ownership of Opto-Mechanical and Structural Modules. Design, <abbr title="Finite Element Analysis">FEA</abbr>, Prototyping, Root Cause Analysis, Drawings and Assembly instructions, Production Documentation and Support, and Product Life Cycle management.
+                                        <br><span class="bullet">&#8594;</span>&nbsp;Patent Pending EU 20200830.6-1209
+                                        <br><span class="bullet">&#8594;</span>&nbsp;Provisional Patent US 62/935709</p>
+                                </div>
+                                <div class="cell">
+                                    <p class="lead"><span class="emph">Integra Technologies, LLC</span>, Wilmington, Delaware<br />Design and Product Development Engineer<br/><span class="duration">Sep, 2016 - Feb, 2017</span></p>
+                                    <p class="description text-justify">Performed initial product research and feasibility studies, designed and prototyped concepts, maintained Detailed Drawings, Assembly and Test instructions, and identified sourcing solutions by interacting with suppliers. Improved product designs through Structural, Thermal and Vibration Finite Element Analysis</p>
+                                </div>  
+                                <div class="cell">
+                                    <p class="lead"><span class="emph">Omnitek Partners, LLC</span>, Ronkonkoma, New York<br />Mechanical Design Engineer<br/><span class="duration">Sep, 2015 - Feb, 2016</span></p>
+                                    <p class="description text-justify">Generated concepts and built prototypes using Machine Design, Finite Element Analysis, High-Frequency
+                                        Electromagnetic analysis, FPGA development. Generated assembly instructions, and supervised product assembly and testing against design specifications</p>
+                                </div>  
+                                <div class="cell">                                
+                                    <p class="lead"><span class="emph">Stony Brook University</span>, Stony Brook, New York<br />Student Assistant<br/><span class="duration">Aug, 2013 - Aug, 2015</span></p>  
+                                    <p class="description text-justify">Developed Cross-Platform mobile applications for Kinematic Analysis and Synthesis of Mechanical
+                                        Linkages for iOS and Android. Designed, Analyzed and Prototyped Medical Devices, Electro-Mechanical and Robotics systems
+                                        <br><span class="bullet">&#8594;</span>&nbsp;Patent US 10925633
+                                        <br><span class="bullet">&#8594;</span>&nbsp;Provisional Patents</p>                                
+                                </div>
+                                <div class="cell">
+                                    <p class="lead"><span class="emph">Mphasis, an HP company</span>, Bengaluru, India<br />Associate Software Engineer<br/><span class="duration">Aug, 2011 - Aug, 2013</span></p>
+                                    <p class="description text-justify">Spearheaded New Product Development in Web and Desktop Applications as a Full-Stack Developer, delivering innovative solutions.
+                                        <br><span class="bullet">&#8594;</span>&nbsp;Received 5 awards for innovative solutions that streamlined tasks, improved team productivity and thereby reduced costs by 30%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="achievements"  data-magellan-target="achievements">
+                <div class="grid-container">
+                    <div class="grid-y grid-margin-y">
+                        <div class="cell">
+                            <h3>Achievements</h3>
+                        </div>
+                        <div class="cell">
+                            <div class="grid-x small-up-3 medium-up-4 grid-margin-x">
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell flex-container flex-dir-column">
+                                    <div class="card">                            
+                                        <div class="card-image">
+                                            <a href="#" style="text-align: center; font-size: 5em; width: 100% padding: 1.2em; display: block;"><i class="fi-trophy"></i></a>                            
+                                        </div>                          
+                                        <div class="card-section">
+                                            <h5 class="text-center"><a href="#">This is a card.</a><br/></h5>
+                                            <p class="text-justify">Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="projects" data-magellan-target="projects">
+                <div class="grid-container">
+                    <div class="grid-y grid-margin-y">
+                        <div class="cell">
+                            <h3>Projects</h3>
+                        </div>
+                        <div class="cell">                        
+                            <div class="grid-y">
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-2"></div>
+                                        <div class="cell large-10">
+                                            <h4>Tele-presence and a Robot shopper (COVID-19)</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-10">
+                                            <h4>Structural and Opto-Mechanical Design for LIDARs, Laser Projectors and Accessories</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>
+                                        <div class="cell large-2">                                        
+                                        </div>                                    
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-2"></div>
+                                        <div class="cell large-10">
+                                            <h4>MotionGen - A Kinematics Synthesis and Simulation Software</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>                                    
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-10">
+                                            <h4>Accelerometer-based Remote Robot Arm Control</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>
+                                        <div class="cell large-2"></div>                                    
+                                    </div>
+                                </div>
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-2"></div>
+                                        <div class="cell large-10">
+                                            <h4>Predictive Clothing Guide, With Machine Learning</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>                                                                            
+                                    </div>
+                                </div>  
+                                <div class="cell">
+                                    <div class="grid-x">
+                                        <div class="cell large-10">
+                                            <h4>This is a secondary callout</h4>
+                                            <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                                            <a data-open="exampleModal1">more...</a>
+                                        </div>
+                                        <div class="cell large-2"></div>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="volunteering" data-magellan-target="volunteering">
+                <div class="grid-container">
+                    <div class="grid-y grid-margin-y">
+                        <div class="cell">
+                            <h3>Volunteering</h3></div>
+                        <div class="cell">
+                            <div class="grid-y grid-margin-y">
+                                <div class="cell">                                
+                                    <p class="lead"><span class="emph">Makerspace Manchester</span>, Manchester, New Hampshire<br/><span class="duration">2020</span></p>
+                                    <p class="description">Volunteered at a local Makerspace in the production of personal protective equipment for medical professionals during the COVID-19 pandemic. I mentored members on 3D printing and utilized resin casting for high-speed part replication.</p>                                                     
+                                </div>
+                                <div class="cell">                                                                    
+                                    <p class="lead"><span class="emph">Jeeyar Educational Trust</span>, Hyderabad, India<br/><span class="duration">2011</span></p>
+                                    <p class="description">Coached students in the kinematics, robotics and model-making and worked with them to design puppets and character figurines to enact Indian epics - Mahabharata and Ramayana</p>                                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="grid-container">
+                <div class="grid-y grid-margin-y grid-padding-y">            
+                    <div class="cell">
+                        <ul class="menu simple float-right">
+                            <li><span>Connect</span></li>
+                            <li><a href="https://www.linkedin.com/in/pranavkorrapati"><img style="height: 40px;" src="webicons/webicon-linkedin.svg"/></a></li>                                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="reveal large" id="exampleModal1" data-reveal>
+            <h1>Awesome. I Have It.</h1>
+            <p class="lead">Your couch. It is mine.</p>
+            <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/numeric.min.js"></script>
+        <script src="js/helper.js"></script>
+        <script src="js/canvasPainter.js"></script>
+        <script src="js/index.js"></script>
+        <!--
+<script type="application/javascript">
+var canvas = document.getElementById("shake");
+var parent = document.getElementById("shakeContainer");
+canvas.width = parent.offsetWidth;
+canvas.offsetWidth = parent.offsetWidth;
+canvas.height = parent.offsetHeight;
+canvas.offsetHeight = parent.offsetHeight;
+</script>
+-->
     </body>
 </html>
